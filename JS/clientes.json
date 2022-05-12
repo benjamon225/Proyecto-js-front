@@ -1,0 +1,50 @@
+[
+    {
+        "id":"1",
+        "imagen":"/images/clientes/cafe1.jpg",
+        "nombre":"The Club",
+        "descripcion": "Cafeteria ubicada en el centro de santiago"
+    },
+    {
+        "id":"2",
+        "imagen":"/images/clientes/cafe2.jpg",
+        "nombre":"Cactus coffe",
+        "descripcion": "Cafeteria al puro estilo mexicano"
+    },
+    {
+        "id":"3",
+        "imagen":"/images/clientes/cafe3.jpg",
+        "nombre":"Coffe House",
+        "descripcion": "Esta si es.. la casa del cafe!!"
+    },
+    {
+        "id":"4",
+        "imagen":"/images/clientes/cafe4.jpg",
+        "nombre":"Resto Coffe",
+        "descripcion": "Minimalistas pero poderosos"
+    },
+    {
+        "id":"5",
+        "imagen":"/images/clientes/cafe5.jpg",
+        "nombre":"Oye!! Coffe",
+        "descripcion": "Nunca falta el buen cafe"
+    },
+    {
+        "id":"6",
+        "imagen":"/images/clientes/cafe6.jpg",
+        "nombre":"Magnolias Coffe",
+        "descripcion": "El buen cafe se disfruta con algo dulce"
+    },
+    {
+        "id":"7",
+        "imagen":"/images/clientes/cafe7.jpg",
+        "nombre":"Monkee Coffe",
+        "descripcion": "Siempre es tiempo para un buen cafe"
+    },
+    {
+        "id":"8",
+        "imagen":"/images/clientes/cafe8.png",
+        "nombre":"Cafe Bari",
+        "descripcion": "New coffe, new life"
+    }
+]

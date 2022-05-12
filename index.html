@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sweet Bite</title>
+    <script defer src="JS/App.js"></script>
+    <script defer src="JS/listadoProductos.js"></script>
+    <script defer src="JS/variables.js"></script>
+    <script defer src="JS/sweet.js"></script>
+    <link rel="stylesheet" href="sass/custom.css" />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="node_modules/sweetalert2/dist/sweetalert2.min.css"
+    />
+  </head>
+
+  <body class="formulario">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <  <a class="navbar-brand" href="index.html">Yumi! Bite</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <h1>Formulario de registro</h1>
+    
+
+    <div class="container content border border-2 shadow p-3 mb-5 bg-white rounded formulario" id="formulario">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+        <label for="Nombre" class="la">Nombre</label>
+        <input class="in" type="text" placeholder="Ingrese nombre" id="nombre" >
+      </div>
+      <div class="col-md-6">
+        <label for="Precio" class="la">Precio</label>
+        <input class="in" type="text" placeholder="$$$$$" id="precio">
+      </div>
+      <div class="col-md-6">
+        <label for="Cantidad" class="la">Cantidad</label>
+        <input class="in" type="text" placeholder="cantidad" id="cantidad">
+      </div>
+      <div class="col-md-6">
+        <label for="Expira" class="la">Expira</label>
+        <input class="in form-field" type="text" placeholder="dias de duracion" id="expira">
+      </div>
+      <div class="col-md-12">
+        <label for="Descripcion" class="la">Descripcion</label>
+        <input class="in" type="text" placeholder="Aqui describe el producto" id="desc">
+      </div>
+      </div>
+
+      <input
+            class="btn btn-dark col-md-2"
+            type="submit"
+            value="Registrar"
+            id="ingresar"
+          />
+
+    </div>
+
+    <div class="container content border border-2 shadow p-3 mb-5 bg-white rounded formulario">
+      <table class="table container">
+        <thead class="table-dark">
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Duracion</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody id="listado">
+          <td>Aun no hay productos registrados...</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tbody>
+      </table>
+      <button type="button" class="btn btn-danger" id="limpiar">Limpiar</button>
+      <!-- <button type="button" class="btn btn-success" id="buscar">Buscar</button> -->
+      <p></p>
+    </div>
+  </body>
+</html>

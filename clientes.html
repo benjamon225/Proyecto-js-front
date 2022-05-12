@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <script src="index.js"></script>-->
+  <script defer src="js/appClientes.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="JS/variables.js"></script>
+  <script  defer src="JS/plantilla.js"></script>
+
+  <link rel="stylesheet" href="sass/custom.css">
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="formulario2">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <  <a class="navbar-brand" href="index.html">Yumi! Bite</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Registro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+
+<div>
+  <h1>Echale un vistazo a nuestros clientes !!!</h1>
+</div>
+
+    <div id="cargar" class="d-flex align-items-center container">
+      <strong style="font-size: 3rem;">Loading...</strong>
+    </div>
+
+    <div id="clientes" class="row container-fluid" >
+    <!-- aqui se carga el contenido que viene de afuera -->
+    </div>
+
+
+
+
+
+  <footer style="margin-top: 3rem;">
+  </footer>
+
+
+</body>
+
+</html>
